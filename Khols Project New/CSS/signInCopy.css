@@ -1,0 +1,479 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 98.5vw;
+    font-size: 16px;
+    /* font-family :  Helvetica, Arial, sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Noto Sans', sans-serif; */
+}
+
+/* ****************OFFER***************** */
+#offer{
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    padding: 0.5rem;
+    background-color:#eeeeee;
+    font-size: 0.8rem;
+}
+ .free , .free a:link{
+    color: red;
+}
+a:link{
+    color: black;
+   font-size:  0.7rem;
+}
+#offer strong{
+    font-weight: bold;
+}
+
+/* ************************Main Navigation Bar**************** */
+
+
+.sticky{
+    /* important needs to open in last */
+   /* position: sticky;
+   top: 0px; */
+   z-index: 1;
+   background-color: #ffffff;
+   display: flex;
+   justify-content: space-between;
+   /* background-color: pink; */
+   height: 3.5rem;
+   border-bottom: 1px solid rgb(136, 134, 134);
+}
+.stickyLeft{
+   display: flex;
+   justify-content: space-between;
+   margin: auto 1rem;
+}
+.sticky h1{
+   font-size: 2.5rem;
+   font-weight: bold;
+   margin-right: 2rem;
+   text-transform: uppercase;
+   color: #444444;
+}
+/* *************************** Styling Search Icon************ */
+.sticky .search{
+   font-size: 0.8rem;
+   display: flex;
+   border: 1px solid rgb(182, 179, 179);
+   border-radius: 0.2rem;
+}
+.sticky .search .icon{
+   font-size: 1rem;
+   color: rgb(192, 182, 182);
+   font-weight: thin;
+   margin: auto;
+   padding-left: 0.5rem;
+}
+.sticky #search{
+   place-self: center;
+   width: 22rem;
+   border: none;
+   padding: 0.2rem;
+   border-radius: 0.2rem;
+}
+input[type=text]{
+   border: none;
+   outline: none;
+  margin-left: 0.5rem;
+ }
+
+ /* *********************** Styling Right Sticky Part*********** */
+
+.sticky .innerSticky{
+   display: flex;
+  margin: auto 0rem;
+  /* flex-wrap: wrap; */
+}
+.sticky .innerSticky div{
+   padding: 0.5rem;
+   margin-right:0.8rem;  
+}
+.stickyRight .innerSticky .iconSticky{
+   text-align: center;
+   display: block;
+   color: rgb(42, 42, 46);
+   font-size: 1.5rem;
+   margin-bottom: 0.2rem;
+}
+.stickyRight .innerSticky  p{
+   text-align: center;
+   font-size: 0.8rem;
+}
+
+/* ****************** Mini NAVBAR **************** */
+
+
+#category{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    /* padding: 0.5rem; */
+    /* background-color: grey; */
+    
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+#category #left{
+    display: flex;
+    width: 50%;
+}
+#shop strong{
+    /* margin-left: 3rem; */
+    border-right: 1px solid rgb(82, 79, 79);
+    padding:0.5rem  2.5rem 0.5rem 0.8rem;
+    /* background-color: pink; */
+}
+#shop strong:hover{
+    cursor: pointer;
+}
+#category .mininavIcon{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+#store{
+    margin-left: 2.5rem;
+    /* background-color: orange; */
+}
+#store:hover{
+    cursor: pointer;
+}
+
+#useful{
+  
+    display: flex;
+    text-align: center;
+    margin: auto 1rem;
+}
+
+#coupons{
+    padding-left:2rem;
+}
+
+#help{
+    padding-left: 2rem;
+}
+
+
+
+/* #################################################
+********************SIGN IN LEFT*************** 
+################################################### */
+
+.container{
+    width: 80%;
+    margin:2rem  auto;
+
+}
+.left{
+    display: flex;
+    width: 80%;
+    /* background-color: rgb(188, 124, 124); */
+    margin: auto;
+}
+.signin{
+    border-right: 1px solid #807e7e;
+    /* width: 20rem; */
+    width: 50%;
+    padding-right: 1rem;
+    /* background-color: gray; */
+}
+.signin .sign, .account .create{
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+.signin  p{
+    margin-top: 1rem;
+    color: #6e6868;
+}
+
+.signin > input{
+    margin-top: .5rem;
+}
+.check{
+    /* margin-left:1rem; */
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.check .ipt{
+    display: flex;
+}
+input[type="checkbox"]
+{
+    height: 1rem;
+    width: 1rem;
+   margin-right: 0.5rem;
+}
+
+.check .one a{
+    font-weight: bold;
+}
+.check .one a:hover{
+    text-decoration: none;
+}
+
+
+.btn{
+    display: block;
+    border: none;
+    background-color:#95c96f;
+    color:#fff;
+    padding: 0.5rem 3rem;
+    margin:1.5rem auto 0.5rem auto;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color:#73a94c;
+}
+
+
+
+/* *****************SIGN IN RIGHT**************** */
+
+
+
+.account{
+    /* border-left: 1px solid #d2d2d2; */
+    width: 20rem;
+    margin-left: 1.5rem;
+    /* margin-left: 1rem; */
+}
+
+.account > p{
+    margin:0rem 0rem 1rem 1rem;
+    color: #6e6868;
+}
+
+.create{
+    font-weight: bold;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    
+}
+.right ul li{
+    display: flex;
+} 
+.right ul{
+    list-style: none;
+}
+.right ul li img{
+    width: 2rem;
+    margin: 0.5rem;
+}
+.right ul li span{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 0.5rem;
+    color: black;
+}
+.right li:first-child{
+font-size: 2rem;
+color: rgb(93, 83, 83);
+margin: 0.5rem;
+} 
+
+
+
+/* ****************KOHLS CARD ACCOUNT************ */
+
+
+
+.card{
+display: flex;
+    margin: 2rem 10%;
+    width: 60%;
+}
+.card .kohls img{
+    width: 3rem;
+    margin-right: 1rem;
+}
+.card .kohls span{
+    font-weight: bold ;
+    display: block;
+}
+.card .kohls a{
+    color: #6e6868;
+}
+.card .kohls a:hover{
+    text-decoration: none;
+
+}
+
+
+
+
+/* 
+##################################################################
+******************************* Footer**************************
+################################################################### */
+
+
+
+
+
+.sectionFooter .backTopLink{
+    display: block;
+    text-decoration: none;
+    color: rgb(17, 2, 2);
+    /* background-color: pink; */
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.sectionFooter .backTop
+{
+    width: 10%;
+    font-size: 0.7rem;
+    text-align: center;
+    margin: auto;
+}
+.sectionFooter .footerContainer{
+    width: 98.5vw;
+    background-color: #f0f0f0;
+    padding: 2rem 0rem 15rem 0rem;
+}
+.footerContainer .footermain{
+    width: 75vw;
+    border-bottom: 1px solid #cecccc;
+    margin: auto;
+    padding-bottom: 3rem;
+
+    margin-bottom: 2rem;
+}
+.footermain .megaFooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    margin: 1rem auto;
+    flex-wrap: wrap;
+}
+.megaFooter .footerList {
+    margin: 0.5rem ;
+    width: 15%;
+}
+.megaFooter .footerList ul li{
+    list-style: none;
+    font-size: 0.65rem;
+    margin: 1rem 1rem 0rem 0rem;
+    display:block;
+   
+}
+.megaFooter .footerList ul li strong{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.megaFooter .footerList ul li a{
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+}
+
+.footerContainer .footerLast{
+    text-align: center;
+    font-size: 0.65rem;
+}
+.footerContainer .footerLast p{
+    padding: 0.1rem;
+}
+.footerContainer .footerLast p a{
+    /* text-decoration: none; */
+    font-weight: bold;
+    color: #141313;
+    margin-right:0.06rem ;
+    /* border: 1px solid blue; */
+}
+.footerContainer .footerLast p a:hover{
+   color: #555454;
+}
+
+
+
+/* **************************** Footer Icons ******************* */
+.footermain .footerIcon
+{
+    display: flex;
+    font-size: 0.7rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #cecccc;
+}
+.footerIcon .left{
+    display: flex;
+    padding: 1rem 2rem 2rem 0rem;
+    margin:auto 1rem;
+    border-right:1px solid #cecccc;
+}
+.footerIcon .left .leftIconConnect,.footermain .footerIcon .right .app
+{
+   padding:0rem 1rem;
+   line-height: 1.1rem;
+   text-transform: uppercase;
+   font-weight: bold;
+   letter-spacing: 0.02rem;
+}
+.footerIcon .left .leftIconConnect{
+    width: 35%;
+}
+.left .leftIcons{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+    flex-grow: 1;
+}
+.left .leftIcons .socialMedia{
+    margin:  auto 0.5rem;
+    font-size: 1.3rem;
+    /* background-color: red; */
+}
+.left .leftIcons .socialMedia a{
+    color: rgba(15, 15, 15, 0.897);
+    font-size: 1.3rem;
+    /* color: red; */
+}
+.left .leftIcons .socialMedia:hover{
+    transform:scale(0.8) ;
+    transition: transform 0.2s ease;
+}
+
+
+/* ********************** Right Portion******** */
+.footermain .footerIcon .right{
+    display: flex;
+    margin-left: 1rem;
+}
+.footermain .footerIcon .right .rightData{
+    margin:auto 1rem auto 0rem;
+}
+.footermain .footerIcon .right .app
+{
+   width: 25%;
+}
+
+.footermain .footerIcon .right .rightData p{
+    padding:0.5rem 1rem;
+    flex-grow: 1;
+}
+.footermain .footerIcon .right .rightData button{
+    margin: auto;
+    display: block;
+    font-size: 0.6rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.87);
+    border: none;padding: 0.3rem 0.8rem;
+    border-radius: 0.25rem;
+}

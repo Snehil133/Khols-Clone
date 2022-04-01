@@ -1,0 +1,220 @@
+
+
+
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    font-weight: bold;
+    font-size:1rem
+}
+
+/* ***************OPTIONS*************** */
+
+
+.shop{
+    border-top: 1px solid black;
+    padding-top:1rem;
+    margin-top:5rem;
+}
+
+.options{
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.one > p{
+    text-align: center;
+}
+
+
+
+/* ***************SELECT**************** */
+
+.all{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.select{
+    border-bottom: 1px solid black;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.select > p{
+    margin-top: 0.5rem;
+}
+
+#one{
+    height: 2rem;
+    width: 10rem;
+}
+
+#two{
+    height: 2rem;
+    width: 10rem;
+}
+
+
+
+/* *****************LIST****************** */
+
+
+.list1{
+    display: flex;
+    gap: 5rem;
+    margin-top:2rem;
+}
+
+.different{
+    display: flex;
+}
+
+
+.color{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    
+}
+
+
+.div1{
+    margin-left: 5rem;
+   
+}
+
+
+.sales{
+    border: 1px solid black;
+    display: flex;
+    width: 60rem;
+    gap: 3.5rem;
+}
+
+
+.sale{
+    border: 1px solid black;
+    display: flex;
+    width: 15rem;
+    gap: .5rem;
+    /* margin-right: 1rem; */
+}
+
+.sale > p{
+    margin-left: 5rem;
+}
+
+
+.regular{
+    border: 1px solid black;
+    width: 80rem;
+    display: flex;
+    gap: 12rem;
+    margin-left:4.5rem
+}
+
+
+
+.discription{
+    border: 1px solid red;
+    display: flex;
+    gap: 6rem;
+    margin-top:1rem;
+    width: 80rem;
+}
+
+.d{
+    border: 1px solid black;
+    height: 5rem;
+    width: 13rem;
+    margin-top:1rem;
+    margin-left: 1rem;
+}
+
+.marvel{
+    margin-top:5rem;
+    margin-bottom: 10rem;
+}
+
+
+/* ********************BEST SELLER************** */
+
+.best{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.sellers{
+    margin-top: 1rem;
+    border-top: 1px solid black;
+    height: 10rem;
+    background-color: orange;
+}
+/* .lorem{
+    background-color: red;
+} */
+.sellers > p{
+    margin: 5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.img{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.jeans{
+    font-weight: bold;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+
+.lis{
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.budget{
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *********************SALE******************** */
+
+.cloth{
+    margin-top:10rem;
+    font-weight: bold;
+}
+
+.content{
+    margin-top: 1rem;
+    border-top: 1px solid black;
+}
+
+.ins{
+    margin-top: 1rem;
+}

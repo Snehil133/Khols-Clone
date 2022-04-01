@@ -1,0 +1,155 @@
+@import './reset.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gotham 4r', Helvetica, Arial, sans-serif;
+  /* line-height: 14px; */
+  font-size: 16px;
+  text-align: center;
+}
+
+header {
+  background-image: url(https://media.kohlsimg.com/is/image/kohls/SiteOutage-20150605-mosaic-bg-x?fmt=png-alpha&scl=1);
+  background-repeat: no-repeat;
+  height: 3.5rem;
+}
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.top .detailsHead {
+  width: 60vw;
+  margin: 0 auto;
+}
+.top .detailsHead .freeShipping,
+.bottom .freeShipping {
+  margin: 2rem 0rem 0.3rem 0rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.top .detailsHead .freeShipping {
+  color: #388540;
+}
+.bottom .detailsPara .longData {
+  width: 50vw;
+  margin: auto;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+.review {
+  width: 48vw;
+  color: rgba(22, 22, 22, 0.863);
+  padding: 1.5rem 5rem;
+  display: inline-block;
+  border-bottom: 0.5px solid rgba(150, 148, 148, 0.582);
+}
+
+.review a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* ************************************ Styling Button********************* */
+
+.bottom .btn {
+  text-transform: uppercase;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.05rem;
+  font-size: 0.7rem;
+  color: white;
+  margin: 1.5rem auto;
+}
+.bottom .btn a {
+  color: white;
+}
+.bottom .btnDetails a {
+  background-color: #388540;
+  padding: 0.5rem 5rem;
+}
+.bottom .btnDetails a:hover {
+  background-color: #297030;
+}
+.bottom .shopNow a {
+  background-color: red;
+  padding: 0.5rem 3rem;
+}
+.bottom .shopNow a:hover {
+  background-color: rgba(182, 14, 14, 0.904);
+}
+
+/* ************************************Styling Cart ********************* */
+
+.cartDetails {
+  border: 0.5px solid rgba(150, 148, 148, 0.582);
+  width: 50vw;
+  margin: 1rem auto;
+  background-color: pink;
+}
+.cart {
+  display: flex;
+  justify-content: space-around;
+}
+.cartDetailsBody {
+  background-color: rgb(221, 94, 94);
+  width: 60%;
+}
+.bottom span {
+  color: red;
+}
+
+/* ************************************Styling Table ********************* */
+.table{
+    width: 40vw;
+    /* background-color: skyblue; */
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.table .box{
+    padding: 1rem 1rem;
+    /* background-color: pink; */
+   border: 1px solid gray;
+}
+.table .box1,.table .box2,.table .box3,.table .box4{
+    background-color:#388540;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.table .box5,.table .box9, .table .box13, .table .box14{
+    font-weight: bold;
+
+} 
+.table .box7{
+  grid-area: 2/3/4/3;
+  /* align-self:center; */
+  padding: 2.45rem ;
+ 
+}
+.table .box8{
+  grid-area: 2/4/4/4;
+  /* align-self:center; */
+  padding: 2.45rem;
+
+}
+.table .box10{
+  grid-area: 3/2/5/3;
+  /* align-self:center; */
+  padding: 2.45rem ;
+
+}

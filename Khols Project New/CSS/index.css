@@ -1,0 +1,1465 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 98.5vw;
+    font-size: 16px;
+    /* font-family :  Helvetica, Arial, sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Noto Sans', sans-serif; */
+}
+
+/* ****************OFFER***************** */
+#offer{
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    padding: 0.5rem;
+    background-color:#eeeeee;
+    font-size: 0.8rem;
+}
+ .free , .free a:link{
+    color: red;
+}
+a:link{
+    color: black;
+   font-size:  0.7rem;
+}
+#offer strong{
+    font-weight: bold;
+}
+
+/* ************************Main Navigation Bar**************** */
+.instAcc{
+    color: black;
+    font-style: bold;
+    text-decoration: none;
+}
+.instAcc:link, .instAcc:visited, .instAcc:hover{
+    color: black;
+}
+.sticky{
+    /* important needs to open in last */
+   /* position: sticky;
+   top: 0px; */
+   z-index: 1;
+   background-color: #ffffff;
+   display: flex;
+   justify-content: space-between;
+   /* background-color: pink; */
+   height: 3.5rem;
+   border-bottom: 1px solid rgb(136, 134, 134);
+}
+.stickyLeft{
+   display: flex;
+   justify-content: space-between;
+   margin: auto 1rem;
+}
+.sticky h1{
+   font-size: 2.5rem;
+   font-weight: bold;
+   margin-right: 2rem;
+   text-transform: uppercase;
+   color: #444444;
+}
+/* *************************** Styling Search Icon************ */
+.sticky .search{
+   font-size: 0.8rem;
+   display: flex;
+   border: 1px solid rgb(182, 179, 179);
+   border-radius: 0.2rem;
+}
+.sticky .search .icon{
+   font-size: 1rem;
+   color: rgb(192, 182, 182);
+   font-weight: thin;
+   margin: auto;
+   padding-left: 0.5rem;
+}
+.sticky #search{
+   place-self: center;
+   width: 22rem;
+   border: none;
+   padding: 0.2rem;
+   border-radius: 0.2rem;
+}
+input[type=text]{
+   border: none;
+   outline: none;
+  margin-left: 0.5rem;
+ }
+
+ /* *********************** Styling Right Sticky Part*********** */
+
+.sticky .innerSticky{
+   display: flex;
+  margin: auto 0rem;
+  /* flex-wrap: wrap; */
+}
+.sticky .innerSticky div{
+   padding: 0.5rem;
+   margin-right:0.8rem;  
+}
+.stickyRight .innerSticky .iconSticky{
+   text-align: center;
+   display: block;
+   color: rgb(42, 42, 46);
+   font-size: 1.5rem;
+   margin-bottom: 0.2rem;
+}
+.stickyRight .innerSticky  p{
+   text-align: center;
+   font-size: 0.8rem;
+}
+
+/* ****************** Mini NAVBAR **************** */
+
+
+#category{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    /* padding: 0.5rem; */
+    background-color: grey;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+#category #left{
+    display: flex;
+    width: 50%;
+}
+#shop strong{
+    /* margin-left: 3rem; */
+    border-right: 1px solid rgb(82, 79, 79);
+    padding:0.5rem  2.5rem 0.5rem 0.8rem;
+    /* background-color: pink; */
+}
+#shop strong:hover{
+    cursor: pointer;
+}
+#category .mininavIcon{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+#store{
+    margin-left: 2.5rem;
+    /* background-color: orange; */
+}
+#store:hover{
+    cursor: pointer;
+}
+
+#useful{
+    border: 1px solid black;
+    display: flex;
+    /* margin-left: 55%; */
+    background-color: cyan;
+}
+
+#coupons{
+    padding-left:1rem;
+}
+
+#help{
+    padding-left: 1rem;
+}
+
+
+
+/* ***************FREE SHIPPING************* */
+
+ #free-shipping  a, #free-shipping{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+#free-shipping i{
+padding:0rem 0.5rem;
+font-size: 1.3rem;
+}
+#free-shipping span{
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    font-size: 1.5rem;
+}
+#free-shipping  a:hover{
+    text-decoration: none;
+}
+
+/* ********************savings************** */
+
+
+/* ********************* Left Part ************************ */
+.section{
+    display: flex;
+    margin-top: 3rem;
+}
+
+#main{
+    background-color: #2459a8;
+    /* height: 30rem;
+    width: 35rem; */
+    width: 50%;
+    padding-bottom: 2rem;
+}
+.section #main #inner{
+    border: 10px solid rgb(65, 177, 65);
+    width: 75%;
+    margin: 10% auto;
+    color: white;
+    padding: 3rem 1rem 2rem 1rem;
+    text-align: center;
+}
+.section #main #inner p{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.section #main #inner .up{
+    font-size: 5.2rem;
+    margin:0rem -2rem;
+    font-weight: 600;
+    background-color: #2459a8;
+    z-index: 1;
+    padding: 0.2rem;
+}
+.section #main #inner .small{
+    font-size: 1.5rem;
+}
+.section #main #inner .last{
+    font-size: 1rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+.section #main button{
+    margin: auto;
+    display: block;
+    padding: 0.6rem 1.5rem;
+    font-weight: bold;
+}
+.section #main button:hover{
+transform: scale(1.1);
+text-decoration: underline;
+}
+
+/* *********************** Right Part *********** */
+.section .optionsRight{
+    flex-grow: 1;
+}
+.section .options
+{
+    /* background-color: orange; */
+    flex-grow: 1;
+    margin: 1rem 0rem 1rem 2rem;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.box{
+    background-color: #2459a8;
+    height:6rem;
+    width: 6rem;
+   font-weight: bold;
+    border-radius: 50%;
+    display: grid;
+    /* gap: auto 1rem; */
+    color: white;
+    margin: 1rem 0rem 2rem 0rem;
+}
+.box:hover{
+    cursor:pointer;
+      transform: scale(1.05);
+  }
+.box>div{
+    place-self: center;
+    font-size: 1rem;
+}
+
+/* **************** Right Button **************** */
+
+.btnOptions{
+    display: flex;
+    margin:2rem auto;
+    justify-content: space-evenly;
+    border: none;
+    outline: none;
+    width: 80%;
+}
+.btnOptions .btn{
+ display: inline-block;
+ padding: 0.5rem 3rem;
+ background-color: #2459a8;
+ border: none;
+ color: white;
+ font-weight: 600;
+}
+.btnOptions .btn:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+
+
+
+/* ***********OPTIONS**************** */
+
+.optionsTop{
+    margin: 3rem 0rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.options{
+    margin: 3rem 0rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.optionsTop .first, .optionsTop .second,
+.optionsTop .third{  
+    width: 30%;     
+}
+.optionsTop .first img, .optionsTop .second img,
+.optionsTop .third img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.optionsTop  .amazing{
+    border: 1px solid black;
+    background-color: #2459a8;
+    color: #fff;
+    text-align: center;
+    padding-top: 0.8rem;
+}
+.optionsTop  .amazing .small{
+    font-size: 0.8rem;
+    font-weight: 600;
+    /* background-color: #2d24a8; */
+    z-index: 1;
+    width: fit-content;
+    padding: 0rem 0.5rem;
+    /* background-color: red; */
+    margin: auto;
+    letter-spacing: 0.03rem;
+}
+.optionsTop  .amazing .mid{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-top: 0.3rem;
+    letter-spacing: 0.03rem;
+    margin: -0.5rem 1.5rem 0rem 1.5rem;
+    border-top: 0.25rem solid rgb(116, 194, 116);
+}
+.optionsTop  .amazing p strong{
+    display: block;
+    padding-top: 0.3rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.orig{
+    /* border: 1px solid black; */
+    margin-top: 1rem;
+    width: 50%;
+    margin: 0.3rem auto;
+    text-align: center;
+}
+
+.life{
+    width: 60%;
+}
+
+.forth{
+    border: 1px solid black;
+    margin-left: 1rem;
+}
+.gear{
+    border: 1px solid black;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: orange;
+}
+
+/* 
+
+#######################################################
+    #####################################################
+    ################################################# */
+
+
+
+
+
+
+
+
+/* **************OPTIONS1*************** */
+                /* AND */
+/* **************OPTIONS2*************** */
+                /* AND */
+/* **************LIMITED**************** */
+
+
+.options1{
+    /* border: 1px solid black; */
+    padding-top: 1rem;
+    display: flex;
+}
+
+
+.deal{
+    background-image: url(https://media.kohlsimg.com/is/image/kohls/hp2-d-20220324-family-offers-01);
+    height: 40rem;
+    width: 35rem;
+    background-repeat: no-repeat;
+}
+
+.main{
+    border: 1px solid red;
+}
+
+.p{
+    text-align: center;
+    padding-top: 10rem;
+    /* border: 1px solid black; */
+    /* border: 1px solid red; */
+    margin-left: 15rem;
+}
+
+
+
+.fifth{
+    border: 1px solid black;
+    margin-top: 2rem;
+    height: 35vh;
+    width: 20vw;
+}
+
+.deal1{
+    background-image: url(https://media.kohlsimg.com/is/image/kohls/hp2-d-20220324-family-offers-02);
+    height: 40rem;
+    width:35rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+
+
+.main1{
+    display: flex;
+}
+
+.under{
+    border: 1px solid red;
+    background-color: #2459a8;
+    color: #fff;
+    text-align: center;
+    margin-top: -16rem;
+    height: 8rem;
+    width: 9rem;
+    padding: 1rem;
+}
+
+.under1{
+    border: 1px solid red;
+    background-color: #2459a8;
+    color: #fff;
+    text-align: center;
+    margin-top: -16rem;
+    height: 8rem;
+    width: 9rem;
+    padding: 1rem;
+    margin-left: 8.5rem;
+}
+
+.under2{
+    border: 1px solid red;
+    background-color: #2459a8;
+    color: #fff;
+    text-align: center;
+    margin-top: -16rem;
+    height: 8rem;
+    width: 8rem;
+    padding: 1rem;
+    margin-left: 5rem;
+}
+
+.under3{
+    border: 1px solid red;
+    background-color: #2459a8;
+    color: #fff;
+    text-align: center;
+    margin-top: -16rem;
+    height: 8rem;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.extra{
+    border: 1px solid black;
+    height: 10rem;
+    width: 10rem;
+    background-color: grey;
+}
+
+.off{
+    border: 1px solid blue;
+    margin: 1rem;
+    height: 7rem;
+    width: 8rem;
+    text-align: center;
+    background-color:#fff;
+}
+
+.off > strong{
+    font-weight: bold;
+}
+
+
+/* ***********LIMITED************ */
+
+.deal2{
+    background-image: url(../Images/8.webp);
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 94%;
+    /* width: 80rem; */
+}
+.march{
+    display: flex;
+    justify-content: space-around; 
+ }
+ .march .left, .march .right{
+     /* border: 3px solid green; */
+     width: 60%;
+     
+ }
+ .march .left .time{
+   /* background-color: red; */
+   width: 60%;
+   padding: 5rem 0rem;
+    text-align: center;
+}
+.march .left .time strong p{
+    font-size: 2.5rem;
+}
+.march .left .time strong:first-child{
+    color: rgb(117, 20, 117);
+}
+.march .left .time span{
+    font-size:2.1rem;
+}
+.time > strong {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.semi > strong{
+    font-weight: bold;
+}
+
+/* ********************** Right part ************** */
+.march .right{
+    /* background-color: rgb(109, 71, 159);   */
+    text-align: center;
+}
+.march .right .semi{
+    width: 50%;
+    background-color: rgb(109, 71, 159);  
+    font-size: 1.3rem;
+    margin: 0rem -4rem auto auto;
+    padding: 1rem;
+    color: white;
+}
+.march .right .semi strong{
+    font-size: 2rem;
+}
+.march .right .semi .mid{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0.8rem 0rem;
+}
+.brands{
+    border: 1px solid black;
+    /* margin-top: 3rem; */
+    height: 5rem;
+    display: flex;
+}
+
+
+/* ******************************************** */
+.six{
+    border: 1px solid blue;
+    height: 5rem;
+    width: 5rem;
+    /* margin: 1.5rem; */
+    margin-left: 6rem;
+    border-radius: 50%;
+}
+
+.names{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.limited{
+    display: flex;
+}
+
+
+/* #####################################################
+ ************** CLEARANCE ************* 
+ ######################################################## */
+
+
+
+.clearance{
+    border: 1px solid black;
+    margin-top: 8rem;
+    text-align: center;
+    background-color:rgb(169, 9, 9);
+    color: #fff;
+    
+    /* font-weight: bold; */
+}
+.clearance .innerClearance{
+    width: 60%;
+    /* background-color: pink; */
+    margin: 1.3rem auto 3rem auto;
+}
+.clearance .clear{
+    font-size: 5rem;
+    font-weight: 600;
+   
+    /* background-color: orange; */
+}
+.clearance p{
+    font-size: 1.8rem;
+    /* background-color: orange; */
+    margin: -0.3rem;
+    padding: 0;
+}
+.clearance .Shop, .clearance .Shop a
+{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+}
+.clearance .Shop a{
+  font-size: 1rem;
+}
+.clearance .Shop a:hover{
+    text-decoration: none;
+}
+.save{
+    display: flex;
+    /* margin-left: 45rem; */
+    width: 55%;
+    margin:  auto;
+    /* background-color: green; */
+}
+.save .upto{
+    margin: 1.3rem 0.5rem;
+    font-size: 2rem;
+    /* font-weight: bolder; */
+}
+
+.save > strong{
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+p>a{
+    color:#fff;
+}
+
+
+/* 
+#####################################################
+ ************** So Many Deals ************* 
+ ######################################################## */
+
+.so{
+    /* border:1px solid black; */
+    margin-top: 2rem;
+    background-color: yellow;
+    padding: 2rem;
+    text-align:center;
+    font-weight:bold;
+}
+.so1 strong {
+    font-size: 5rem;
+}
+
+.add{
+    font-size: 2rem;
+    padding: 1rem 0rem 0.5rem 0rem;
+}
+
+.so p{
+    font-weight: 100;
+}
+.many{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 80%;
+    margin: auto;
+}
+.deals{
+    margin-top: 1rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    color: #fff;
+    background-color:black;
+    margin-left: 2rem;
+    height: 2rem;
+    width: 9rem;
+}
+
+
+/* ***************SEPHORA + KOHL'S************ */
+
+.sephora{
+    border: 1px solid black;
+    margin-top: 4rem;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    /* font-weight: bold; */
+}
+
+.sephora > p{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.sephora p strong{
+    font-weight:800;
+}
+.sephora p a{
+    font-size: 0.9rem;
+    padding-left: 0.3rem;
+}
+.sephora p a:hover{
+    text-decoration: none;
+    
+}
+
+
+/* ########################################################
+ ************** PRODUCTS **************
+ #######################################################  */
+
+
+.products{
+    /* border: 1px solid blue; */
+    margin-top: 1rem;
+    display: grid;
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 2rem; */
+    /* height: 40rem; */
+    /* width: 100rem; */
+}
+.products img{
+    width: 95%;
+}
+
+/* *********************AVAILABLE***************** */
+
+
+.available{
+    /* border: 1px solid black; */
+    display: flex;
+    /* margin-left: 2rem; */
+    justify-content: space-around;
+    width: 85%;
+    margin: 2rem auto;
+
+}
+
+.six1{
+    justify-content: space-around;
+    /* background-color: pink; */
+}
+
+.six1 > p{
+    /* margin-left: 2.3rem; */
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+/* ************REWARDS************* */
+
+.rewards{
+    background-image: url(../Images/18.webp);
+    background-repeat: no-repeat;
+    
+    /* height: 5rem; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 99.5%;
+}
+.rewardsOne{
+    width: 35%;
+    /* background-color: orange; */
+    display: flex;
+    margin:1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    justify-content: space-evenly;
+}
+.rewardsOne .rewardsLeft{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+}
+.rewardsOne .rewardsLeft p {
+font-size: 2rem;
+color: green;
+margin-top: -0.5rem;
+font-weight: 100;
+}
+.rewardsOne .rewardsMid{
+    font-size: 1.5rem;
+    font-weight: bold;
+   /* background-color: #555454; */
+   place-self: center
+}
+.rewardsOne .rewardsRight{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.3rem;
+}
+.rewardsOne .rewardsRight p{
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+/* ******************************************************** */
+.rewardsTwo{
+    text-align: center;
+    margin:1.5rem;
+    flex-grow: 1;
+    line-height: 1.1rem;
+    /* background-color: green; */
+    display: flex;
+    padding-left: 7rem;
+}
+.rewardsTwo .ways{
+    font-weight: bold;
+    padding: 0.2rem;
+    
+}
+.rewardsTwo p{
+    font-size: 1rem;
+}
+
+/* *************************************************** */
+.learn{
+    margin:1.5rem;
+}
+
+.learn > a{
+    color: black;
+    font-size: 1rem;
+}
+
+.tc{
+   width: fit-content;
+   margin: auto;
+   font-size: 0.7rem;
+}
+
+
+/* ******************RANDOM************* */
+
+.random{
+    margin-top:5rem;
+    background-color: pink;
+    height: 10rem;
+}
+
+
+/* ************TRENDS*************** */
+
+
+
+
+/* ************TWEEN SHOP************* */
+ /* .tweensShop{
+    display: flex;
+    justify-content: space-evenly;
+   
+    background-color: black;
+    color: #fff;
+}
+.tweensShop div{
+    width: 20%;
+    background-color: red;
+} */
+.shop{
+    margin: 2rem 0;
+    width: 98.5%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: orange; */
+}
+.shop .twn{
+    width: 45%;
+} 
+.shop .twn p{
+    text-align: center;
+    padding: 0.6rem;
+   width: 10rem;
+   margin: auto;
+   color: white;
+    background-color: rgb(9, 9, 9);
+    z-index: 1;
+}
+
+.img1, .img2{
+    display:flex;
+    /* width: 30%; */
+    margin-top: -0.5rem;
+    z-index: -1;
+}
+
+.shop .twn div a{
+    font-size: 1rem;
+    width: 15rem;
+    text-align: center;
+    padding: 1rem 0rem;
+    margin: auto;
+    display: block;
+}
+.shop .twn div .shopImg{
+    background-color:rgba(255, 255, 255, 0.738);
+    z-index: 1;
+    text-decoration: none;
+}
+.shop .twn div .shopImg:hover{
+    text-decoration: underline;
+}
+
+/* *******************SUNDAY*************** */
+
+
+
+
+/* *****************SUNDAY******************* */
+
+.get{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+.dressed{
+    border: 1px solid black;
+    margin: 3rem auto;
+    height: 15rem;
+    width: 100%;
+    margin-left: -6rem;
+    
+}
+.dressed > strong{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+
+.dressed > p{
+    padding-top: 1.5rem;
+    font-weight: bold;
+}
+
+.get .slide{
+    background-color: pink;
+}
+/* *************CELEBRATE************ */
+
+.gift{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gift1{
+    height:6rem;
+    width: 6rem;
+   font-weight: bold;
+    border-radius: 50%;
+    display: grid;
+    background-color: #0e4aa3;
+}
+.gift1>div{  
+  place-self: center;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+}
+.gift1:hover{
+transform: scale(1.05);
+}
+.cele p{
+    /* background-color: red; */
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-weight: bold;
+}
+.cele .str{
+    margin-top: 4rem;
+}
+
+
+
+/* ***************SHOPPING TODAY************ */
+
+.shopping{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.today > p{
+    text-align: center;
+}
+.today:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+/* **************LEVIS****************** */
+
+.off1{
+    display: flex;
+    margin: 5rem auto;
+    /* background-color: #91b5ea; */
+    width: 98.5%;
+}
+.off1 img{
+    width: 100%;
+}
+/* *******************WOMEN HISTORY************** */
+
+.history{
+    background-image: url(../Images/37.gif);
+   background-repeat: no-repeat;
+   height: 30rem;
+}
+.history .right{
+
+    width: 70%;
+   height: 20rem;
+   margin-left: 20rem;
+   padding: 5rem 0;
+}
+ .celebrate{
+    font-size: 1.5rem;
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+    z-index: 1;
+} 
+
+.month{
+       font-size: 2rem;
+       width: fit-content;
+       margin: auto;
+       z-index: -2;
+    padding: 0.8rem 1rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.vital{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+ .vital a{
+     font-size: 1rem;
+     font-weight: bold;
+ }
+ .vital a:hover,.right .collection a:hover{
+     text-decoration: none;
+ }
+.right .collection a{
+    color: black;
+    display: block;
+    width: fit-content;
+    margin:2rem  auto;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* 
+#################################################
+ *******************NCAA****************** 
+############################################### */
+
+.hyped{
+    display: flex;
+    justify-content: space-between;
+}
+.hyped .img6{
+    width: 45%;
+}
+.ncaa{
+    width: 40%;
+    /* background-color: gray; */
+    
+}
+.ncaa > p{
+  
+    height: fit-content;
+    margin:5rem 0rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.ncaa .gear{
+    margin:0rem auto;
+    width: fit-content;
+    text-align: center;
+    background-color: black;
+    padding: 0.5rem;
+   
+}
+.ncaa .gear a{
+    color: #fff;
+   font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+.ncaa .gear a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* *************POPULAR****************** */
+
+.popular{
+    border: 1px solid;
+    margin-top: 5rem;
+    height: 3rem;
+    width: 16rem;
+}
+
+.popular > p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/* ***************POPULAR PRODUCTS************** */
+
+
+.popularproducts {
+    border: 1px solid black;
+    margin-top: 15rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* #################################################
+******************* EASY *************************
+################################################## */
+
+.easySection{
+    background-color: #e8e3e3;
+
+   
+}
+.easy{
+    /* border: 1px solid black; */
+    margin-top: 15rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.easySection .amazon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.store{
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 2rem 4rem;
+    margin: auto;
+    background-color: white;
+    /* border: 3px solid red; */
+} 
+.fast .store .insideFast
+{ width: 100%;
+    margin: 4rem auto 0rem auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.fast .store .insideFast .iconFast{
+    font-size: 3rem;
+}
+.store .insideFast .fst1{
+color: rgb(109, 13, 109);
+}
+.insideFast .fst2{
+    color: rgb(191, 13, 141);
+    
+}
+.store > .one{
+    
+    font-size: 3rem;
+}
+
+.store > .three{
+        font-weight: bold;
+}
+
+.store > a{
+    color: black;
+}
+
+.amazonRight{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+.app{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: white;
+}
+.amazonRight .app .appPara{
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+
+/* **********************RETURN******************* */
+
+.return>a{
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+   margin-bottom: 3rem;
+    text-decoration: none;
+    color: black;
+    background-color: #e8e3e3;
+    padding: 2rem;
+
+}
+.return>a:hover{
+    text-decoration: underline;
+}
+.return>img{
+    width: 99.5%;
+}
+
+
+
+/* ***************COMMUNITY*************** */
+
+
+
+.community img{
+    width: 99.3%;
+}
+
+
+/* ********************T&C***************** */
+
+
+.term{
+    /* margin-top: 5rem; */
+    text-align: center;
+    font-size: 0.7rem;
+    width: 98%;
+    line-height: 1rem;
+    margin:5rem auto 0rem auto;
+}
+
+
+
+
+
+/* 
+##################################################################
+******************************* Footer**************************
+################################################################### */
+
+
+
+.sectionFooter .backTopLink{
+    display: block;
+    text-decoration: none;
+    color: rgb(17, 2, 2);
+    /* background-color: pink; */
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.sectionFooter .backTop
+{
+    width: 10%;
+    font-size: 0.7rem;
+    text-align: center;
+    margin: auto;
+}
+.sectionFooter .footerContainer{
+    width: 98.5vw;
+    background-color: #f0f0f0;
+    padding: 2rem 0rem 15rem 0rem;
+}
+.footerContainer .footermain{
+    width: 75vw;
+    border-bottom: 1px solid #cecccc;
+    margin: auto;
+    padding-bottom: 3rem;
+
+    margin-bottom: 2rem;
+}
+.footermain .megaFooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    margin: 1rem auto;
+    flex-wrap: wrap;
+}
+.megaFooter .footerList {
+    margin: 0.5rem ;
+    width: 15%;
+}
+.megaFooter .footerList ul li{
+    list-style: none;
+    font-size: 0.65rem;
+    margin: 1rem 1rem 0rem 0rem;
+    display:block;
+   
+}
+.megaFooter .footerList ul li strong{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.megaFooter .footerList ul li a{
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+}
+
+.footerContainer .footerLast{
+    text-align: center;
+    font-size: 0.65rem;
+}
+.footerContainer .footerLast p{
+    padding: 0.1rem;
+}
+.footerContainer .footerLast p a{
+    /* text-decoration: none; */
+    font-weight: bold;
+    color: #141313;
+    margin-right:0.06rem ;
+    /* border: 1px solid blue; */
+}
+.footerContainer .footerLast p a:hover{
+   color: #555454;
+}
+
+
+
+/* **************************** Footer Icons ******************* */
+.footermain .footerIcon
+{
+    display: flex;
+    font-size: 0.7rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #cecccc;
+}
+.footerIcon .left{
+    display: flex;
+    padding: 1rem 2rem 2rem 0rem;
+    margin:auto 1rem;
+    border-right:1px solid #cecccc;
+}
+.footerIcon .left .leftIconConnect,.footermain .footerIcon .right .app
+{
+   padding:0rem 1rem;
+   line-height: 1.1rem;
+   text-transform: uppercase;
+   font-weight: bold;
+   letter-spacing: 0.02rem;
+}
+.footerIcon .left .leftIconConnect{
+    width: 35%;
+}
+.left .leftIcons{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+    flex-grow: 1;
+}
+.left .leftIcons .socialMedia{
+    margin:  auto 0.5rem;
+    font-size: 1.3rem;
+    /* background-color: red; */
+}
+.left .leftIcons .socialMedia a{
+    color: rgba(15, 15, 15, 0.897);
+    font-size: 1.3rem;
+    /* color: red; */
+}
+.left .leftIcons .socialMedia:hover{
+    transform:scale(0.8) ;
+    transition: transform 0.2s ease;
+}
+
+
+/* ********************** Right Portion******** */
+.footermain .footerIcon .right{
+    display: flex;
+    margin-left: 1rem;
+}
+.footermain .footerIcon .right .rightData{
+    margin:auto 1rem auto 0rem;
+}
+.footermain .footerIcon .right .app
+{
+   width: 25%;
+}
+
+.footermain .footerIcon .right .rightData p{
+    padding:0.5rem 1rem;
+    flex-grow: 1;
+}
+.footermain .footerIcon .right .rightData button{
+    margin: auto;
+    display: block;
+    font-size: 0.6rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.87);
+    border: none;padding: 0.3rem 0.8rem;
+    border-radius: 0.25rem;
+}

@@ -1,0 +1,141 @@
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cart{
+    border: 1px solid blue;
+    display: flex;
+    height: 11rem;
+    width: 80rem;
+    background-color: #f0f0f0;
+}
+
+.details{
+    /* border: 1px solid black; */
+    height: 9rem;
+    width: 45rem;
+    display : flex;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color:#fff;
+}
+
+.product{
+    border: 1px solid black;
+    height: 5rem;
+    margin-left: 1rem;
+}
+
+.card{
+    border: 1px solid black;
+    height: 7.5rem;
+    width: 7rem;
+    margin-left: 1rem;
+}
+
+
+.card> p{
+    color:#d14a8a;
+}
+
+
+.card > img{
+    height: 2rem;
+    width: 4rem;
+    margin-left: .5rem;
+}
+
+
+.product1 > p , a{
+    font-size: .7rem;
+    text-align: center;
+}
+
+.product2{
+    /* border: 1px solid black; */
+    margin-left: 25rem;
+    /* margin-bottom: 1rem; */
+}
+
+
+
+.view{
+    border: 1px solid black;
+    height: 4rem;
+}
+
+.view > p{
+    margin-top: 1rem;
+}
+
+
+
+/* ****************KOHL'S CASH**************** */
+
+.details1{
+    border: 1px solid black;
+    height:10rem;
+    width: 9rem;
+    margin-left: 1rem;
+    margin-top: .5rem;
+    /* display : flex; */
+}
+
+.details1 > p{
+    margin-top: .5rem;
+}
+
+
+
+
+
+/* **********************ORDER SUMMARY***************** */
+
+
+.order{
+    border: 1px solid black;
+    height: 10rem;
+    width: 19rem;
+    /* margin-top: 1rem; */
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+.sub{
+    margin-top: .5rem;
+}
+
+.apply{
+    margin-top: .5rem;
+}
+
+
+.shipping{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+}
+
+.tax{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tax > a{
+    margin-top: .5rem;
+}
+
+
+.total > p{
+    margin-top: .5rem;
+    font-weight: bold;
+}

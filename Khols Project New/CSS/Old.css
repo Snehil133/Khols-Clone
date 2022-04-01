@@ -1,0 +1,972 @@
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* body{
+    justify-content: center;
+} */
+
+/* ****************OFFER***************** */
+
+
+.free > a, .free{
+    color: red;
+}
+
+
+#offer{
+    border: 1px solid black;
+    text-align: center;
+    padding: 0.5rem;
+    background-color:#eeeeee;
+}
+a{
+    color: rgb(82, 79, 79);
+}
+
+
+
+/* ******************NAVBAR**************** */
+
+#logo{
+    display: flex;
+    border: 1px solid black;
+    /* margin-top:1rem; */
+    padding-left: 1rem;
+}
+
+#search{
+    margin-left: 1.5rem;
+    border: 1px solid red;
+    height: 3rem;
+    width: 20rem;
+    text-align: center;
+}
+
+.icons{
+    border: 1px solid black;
+    display: flex;
+    margin-left: 55%;
+}
+
+#price{
+    padding-left: 1.5rem;
+}
+
+#checkout{
+    padding-left: 1.5rem;
+}
+
+
+#category{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-top: 0.5rem;
+}
+
+#shop{
+    margin-left: 3rem;
+    border-right: 1px solid black;
+    padding-right: 1rem;
+}
+
+#store{
+    margin-left: 3rem;
+}
+
+#useful{
+    border: 1px solid black;
+    display: flex;
+    margin-left: 55%;
+}
+
+#coupons{
+    padding-left:1rem;
+}
+
+#help{
+    padding-left: 1rem;
+}
+
+
+
+/* ***************FREE SHIPPING************* */
+
+
+
+ #free-shipping > a, #free-shipping{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+/* ********************savings************** */
+
+.section{
+    display: flex
+}
+
+#main{
+    background-color:#2459a8 ;
+    height: 30rem;
+    width: 35rem;
+}
+
+.box{
+    background-color: #2459a8;
+    /* place-self: center; */
+    padding: 2rem;
+    /* display: flex; */
+    /* margin: 1rem; */
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    color: #fff;
+}
+
+
+.options{
+    display: grid;
+    gap: 0.5rem;
+    /* justify-content: space-around; */
+    grid-template-columns: repeat(4, 2fr);
+}
+
+/* .options>.box{
+    place-self: center;
+    font-size:1rem;
+} */
+.button{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 25rem;
+    
+}
+
+
+
+/* ***********OPTIONS**************** */
+
+.options{
+    padding-top: 1rem;
+}
+.first{
+    border: 1px solid black;
+}
+
+.dresses{
+    border: 1px solid black;
+}
+
+.amazing{
+    border: 1px solid black;
+    background-color: #2459a8;
+    color: #fff;
+    text-align: center;
+}
+
+.orig{
+    border: 1px solid black;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.second{
+    border: 1px solid black;
+    margin-left: 1rem;
+}
+
+.beans{
+    border: 1px solid black;
+    /* padding: 1rem; */
+    text-align: center;
+}
+
+.reg{
+    border: 1px solid black;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.third{
+    border: 1px solid black;
+    margin-left: 1rem;
+}
+
+.life{
+    border: 1px solid black;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.forth{
+    border: 1px solid black;
+    margin-left: 1rem;
+}
+.gear{
+    border: 1px solid black;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+
+/* **************OPTIONS1*************** */
+                /* AND */
+/* **************OPTIONS2*************** */
+                /* AND */
+/* **************LIMITED**************** */
+
+
+.options1{
+    /* border: 1px solid black; */
+    padding-top: 1rem;
+    display: flex;
+}
+
+
+.deal{
+    background-image: url(https://media.kohlsimg.com/is/image/kohls/hp2-d-20220324-family-offers-01);
+    height: 40rem;
+    width: 35rem;
+}
+
+.main{
+    border: 1px solid red;
+}
+
+.p{
+    text-align: center;
+    padding-top: 10rem;
+    /* border: 1px solid black; */
+    /* border: 1px solid red; */
+    margin-left: 15rem;
+}
+
+
+
+.fifth{
+    border: 1px solid black;
+    margin-top: 2rem;
+    height: 35vh;
+    width: 20vw;
+}
+
+.deal1{
+    background-image: url(https://media.kohlsimg.com/is/image/kohls/hp2-d-20220324-family-offers-02);
+    height: 40rem;
+    width:35rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+
+
+.main1{
+    display: flex;
+}
+
+.under{
+    border: 1px solid red;
+    background-color: #2459a8;
+    color: #fff;
+    text-align: center;
+    margin-top: -16rem;
+    height: 8rem;
+    width: 9rem;
+    padding: 1rem;
+}
+
+.under1{
+    border: 1px solid red;
+    background-color: #2459a8;
+    color: #fff;
+    text-align: center;
+    margin-top: -16rem;
+    height: 8rem;
+    width: 9rem;
+    padding: 1rem;
+    margin-left: 8.5rem;
+}
+
+.under2{
+    border: 1px solid red;
+    background-color: #2459a8;
+    color: #fff;
+    text-align: center;
+    margin-top: -16rem;
+    height: 8rem;
+    width: 8rem;
+    padding: 1rem;
+    margin-left: 5rem;
+}
+
+.under3{
+    border: 1px solid red;
+    background-color: #2459a8;
+    color: #fff;
+    text-align: center;
+    margin-top: -16rem;
+    height: 8rem;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.extra{
+    border: 1px solid black;
+    height: 10rem;
+    width: 10rem;
+    background-color: grey;
+}
+
+.off{
+    border: 1px solid blue;
+    margin: 1rem;
+    height: 7rem;
+    width: 8rem;
+    text-align: center;
+    background-color:#fff;
+}
+
+.off > strong{
+    font-weight: bold;
+}
+
+
+/* ***********LIMITED************ */
+
+.deal2{
+    background-image: url(../Images/8.webp);
+    height: 30rem;
+    width: 80rem;
+}
+
+.time{
+    border: 1px solid red;
+    width: 15rem;
+    height: 10rem;
+    text-align: center;
+    padding-left: 3rem;
+    margin-left: 6rem;
+}
+
+.time > strong {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* ************LIMITED************* */
+
+.march{
+   border: 1px solid red;
+   background-color: #2459a8;
+   color: #fff;
+   margin-left: 50rem;
+   height: 15rem;
+   width: 13rem;
+   text-align: center;
+   padding-top: 5rem;
+}
+
+.semi > strong{
+    font-weight: bold;
+}
+
+.brands{
+    border: 1px solid black;
+    /* margin-top: 3rem; */
+    height: 5rem;
+    display: flex;
+}
+
+.six{
+    border: 1px solid blue;
+    height: 5rem;
+    width: 5rem;
+    /* margin: 1.5rem; */
+    margin-left: 6rem;
+    border-radius: 50%;
+}
+
+.names{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.limited{
+    display: flex;
+}
+
+
+/* ************CLEARANCE*************** */
+
+
+
+.clearance{
+    border: 1px solid black;
+    margin-top: 8rem;
+    text-align: center;
+    background-color:red;
+    color: #fff;
+    /* font-weight: bold; */
+}
+
+.save{
+    display: flex;
+    margin-left: 45rem;
+    width: 9rem;
+}
+
+.save > strong{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.upto{
+    padding-top:0.5em;
+
+}
+
+
+p>a{
+    color:#fff;
+}
+
+
+/* ***********SO MANY DEALS************* */
+
+.so{
+    border:1px solid black;
+    margin-top: 2rem;
+    background-color: yellow;
+}
+
+.so1{
+    text-align:center;
+    font-weight:bold;
+}
+
+.add{
+    font-size: 2rem;
+}
+
+.so1 > strong {
+    font-size: 5rem;
+}
+
+.many{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.deals{
+    border:1px solid black;
+    margin-top: 1rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    color: #fff;
+    background-color:black;
+    margin-left: 2rem;
+    height: 2rem;
+    width: 9rem;
+}
+
+
+/* ***************SEPHORA + KOHL'S************ */
+
+.sephora{
+    border: 1px solid black;
+    margin-top: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.sephora > h2{
+    font-size: 2rem;
+}
+
+
+
+/* **************PRODUCTS*************** */
+
+
+.products{
+    border: 1px solid blue;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    height: 40rem;
+    width: 100rem;
+}
+
+
+/* *********************AVAILABLE***************** */
+
+
+.available{
+    /* border: 1px solid black; */
+    display: flex;
+    /* margin-left: 2rem; */
+
+}
+
+.six1{
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+
+.six1 > p{
+    margin-left: 2.3rem;
+}
+
+
+/* ************REWARDS************* */
+
+.rewards{
+    background-image: url(../Images/18.webp);
+    display: flex;
+    border: 1px solid #ccc;
+    height: 5rem;
+    width: 90rem;
+}
+
+.two{
+    text-align: center;
+    margin-left: 60rem;
+    margin-top:1rem;
+}
+
+.learn{
+    margin-left:2rem;
+    margin-top: 2rem;
+}
+
+.learn > a{
+    color: black;
+}
+
+.tc{
+    margin-left:5rem;
+    padding-top:0.5rem;
+}
+
+
+/* ******************RANDOM************* */
+
+.random{
+    margin-top:5rem;
+}
+
+
+/* ************TRENDS*************** */
+
+
+
+
+/* ************TWEEN SHOP************* */
+
+.shop{
+    display: flex;
+}
+.mentrend{
+    border: 1px solid black;
+    height: 2rem;
+    width: 8rem;
+    text-align: center;
+    padding-top: .3rem;
+    background-color: black;
+    color: #fff;
+    margin-left: 15rem;
+}
+
+.img1{
+    display:flex;
+   
+}
+
+.tween{
+    border: 1px solid black;
+    height: 2rem;
+    width: 8rem;
+    text-align: center;
+    padding-top: .3rem;
+    background-color: black;
+    color: #fff;
+    margin-left: 57rem;
+}
+
+.img2{
+    display: flex;
+    margin-left:3rem;
+}
+
+.tags{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 80rem;
+    /* margin-left: 3rem; */
+}
+
+.beachy{
+    border: 1px solid black;
+    width:30rem;
+}
+
+.casual{
+    border: 1px solid black;
+    margin-left: 1rem;
+    width: 30rem
+}
+
+.floral{
+    border: 1px solid black;
+    margin-left: 1rem;
+    width: 30rem;
+}
+
+.retro{
+    border: 1px solid black;
+    width: 30rem;
+}
+
+
+/* *******************SUNDAY*************** */
+
+
+.sunday{
+    background-image: url(../Images/25.webp);
+    height:30rem;
+    width: 40rem;
+}
+
+
+/* *****************SUNDAY******************* */
+
+.get{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.dressed{
+    border: 1px solid black;
+    height: 10rem;
+    width: 11.5rem;
+}
+
+.dressed > strong{
+    font-weight: bold;
+    font-size: 1.5rem
+}
+
+.dressed > p{
+    padding-top: 1rem;
+    /* font-weight: bold; */
+}
+
+
+/* *************CELEBRATE************ */
+
+
+.celebrate{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+
+.gift{
+    display: flex;
+}
+
+.gift1{
+    border: 1px solid black;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 1rem;
+    background-color: #2459a8;
+    color: #fff;
+}
+
+
+/* ***************SHOPPING TODAY************ */
+
+
+.head{
+    /* margin-left: 10rem; */
+    border: 1px solid black;
+    margin-top: 3rem;
+}
+
+.head > strong{
+    margin-left: 15rem;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.shopping{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.today > p{
+    margin-left: 3.5rem;
+}
+
+
+/* **************LEVIS****************** */
+
+.off1{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.clothing{
+    border: 1px solid black;
+    /* height: 50rem; */
+    /* width: 30rem; */
+   /* padding-left: 10rem; */
+   /* text-align: center; */
+}
+
+.img3{
+    background-image: url(../Images/34.jfif);
+    height: 39rem;
+    width: 50rem;
+    position: absolute;
+}
+
+.img4{
+    background-image: url(../Images/35.webp);
+    height: 39.3rem;
+    width: 44rem;
+    /* margin-left: .5rem; */
+    /* position: absolute; */
+}
+
+.baby{
+    border: 1px solid black;
+    height: 9rem;
+    width: 10rem;
+}
+
+.mix{
+    display: flex;
+}
+
+.img5{
+    /* border: 1px solid blue; */
+    height:9rem;
+}
+
+.levis{
+    background-image: url(../Images/36.png);
+    border: 1px solid black;
+    height: 15rem;
+    width: 17rem;
+    margin-top:10rem;
+    position:relative;
+    margin-left: 40rem
+}
+
+.levis > strong{
+    margin-left: 3rem;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.levis > h6{
+    margin-left: 4rem
+}
+
+
+/* *******************WOMEN HISTORY************** */
+
+.history{
+    /* background-image: url(../Images/37.gif); */
+    height: 50rem;
+    width: 50rem;
+    /* margin-top: 10rem; */
+    margin-left:10rem;
+}
+
+.celebrate{
+    border: 1px solid black;
+    height: 2.5rem;
+    width: 10rem;
+    margin-left: 20rem;
+}
+
+.month{
+    border: 1px solid black;
+    height: 2.5rem;
+    width: 20rem;
+    margin-left: 15rem;
+    text-align: center;
+}
+
+.vital{
+    border: 1px solid black;
+    width: 25rem;
+    text-align: center;
+    margin-left: 12rem;
+    margin-top: 1rem;
+}
+
+
+/* *******************NCAA****************** */
+
+
+.hyped{
+    display: flex;
+}
+
+.ncaa > p{
+    border: 1px solid black;
+    height: 5rem;
+    width: 18rem;
+    margin-left: -36.7rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.ncaa > a{
+    color: #fff;
+}
+
+.gear{
+    margin-left: -35rem;
+    height:2rem;
+    width: 8rem;
+    text-align: center;
+    padding-top: 0.4rem;
+    background-color: black;
+    color:#fff;
+}
+
+
+
+/* *************POPULAR****************** */
+
+.popular{
+    border: 1px solid;
+    margin-top: 5rem;
+    height: 3rem;
+    width: 16rem;
+}
+
+.popular > p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/* ***************POPULAR PRODUCTS************** */
+
+
+.popularproducts {
+    border: 1px solid black;
+    margin-top: 15rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+/* *******************EASY*********************** */
+
+
+.easy{
+    border: 1px solid black;
+    margin-top: 15rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.store{
+    border: 1px solid black;
+    height: 20rem;
+    width: 20rem;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.store > .one{
+    
+    font-size: 3rem;
+}
+
+.store > .three{
+        font-weight: bold;
+}
+
+.store > a{
+    color: black;
+}
+
+.amazon{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 1rem;
+}
+
+.app{
+    border: 1px solid black;
+    height: 5rem;
+    width: 10rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+
+/* **********************RETURN******************* */
+
+.center{
+    margin-left: 40rem;
+}
+
+
+
+
+/* ***************COMMUNITY*************** */
+
+
+.community{
+    border: 1px solid black;
+    height: 20rem;
+    width: 100rem;
+    background-color:#eeeeee
+}
+
+.community > p{
+    text-align: center;
+    margin: 10rem;
+}
+
+
+/* ********************T&C***************** */
+
+
+.term{
+    margin-top: 5rem;
+    text-align: center;
+}
